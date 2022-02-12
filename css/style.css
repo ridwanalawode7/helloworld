@@ -7,6 +7,8 @@ body {
 	background-color: #1d1d1d;
 	margin: 0;
 	padding: 0;
+	height: 100vh;
+	overflow: hidden;
 }
 
 .container {
@@ -17,8 +19,6 @@ body {
 	flex-flow: row wrap;
 	justify-content: center;
 	align-content: center;
-	margin: 0;
-	padding: 0;
 }
 
 h1 {
@@ -44,7 +44,7 @@ h1 {
 	margin: 0 auto;
 }
 
-@media screen and (min-width: 300px) and (max-width: 1023px) {
+@media screen and (orientation: portrait) {
 	.logo {
 		height: 10vw;
 		bottom: 7vw;
@@ -54,3 +54,4 @@ h1 {
 		overflow: hidden;
 	}
 }
+
